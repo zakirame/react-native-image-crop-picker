@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ios/src/*.{h,m}'
   s.platform     = :ios, "8.0"
   s.dependency 'RSKImageCropper'
-  s.dependency 'QBImagePickerController'
+  s.dependency 'QBImagePickerController', :git => 'https://github.com/zakirame/QBImagePicker.git'
   s.dependency 'React-Core'
   s.dependency 'React-RCTImage'
 end
