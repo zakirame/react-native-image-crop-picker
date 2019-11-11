@@ -21,8 +21,8 @@
 #if __has_include("QBImagePicker.h")
 #import "QBImagePicker.h"
 #import "RSKImageCropper.h"
-#elif __has_include(<QBImagePickerController/QBImagePickerController.h>)
-#import <QBImagePickerController/QBImagePickerController.h>
+#elif __has_include(<QBImagePickerControllerZaks/QBImagePickerController.h>)
+#import <QBImagePickerControllerZaks/QBImagePickerController.h>
 #import <RSKImageCropper/RSKImageCropper.h>
 #else
 #import "QBImagePicker/QBImagePicker.h"
